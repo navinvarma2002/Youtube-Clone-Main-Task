@@ -1,0 +1,190 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+body{
+
+    background-color:white;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+
+}
+.container{
+
+    background-color: white;
+    
+}
+
+.navbar-top{
+
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 8px;
+    align-items: center;
+    background-color: white;
+
+}
+.img1{
+
+    height: 30px;
+    width: px;
+}
+
+.youtube-div{
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.search-box{
+
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    border: transparent;
+    width: 500px;
+}
+.search-container{
+
+    display: flex;
+    align-items: center;
+    border: solid black 2px;
+    padding: 3px;
+    border-radius: 30px;
+}
+.icons-left{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50%;
+    margin-right: 100px;
+    
+    
+
+}
+.container-2{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+   
+
+}
+.suggestions{
+
+    background-color:#0F0F0F ;
+    border-radius: 20px;
+    padding: 8px;
+    color:white;
+
+    
+}
+
+.outer-searchbox{
+
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+.youtube-video{
+
+    height:390px;
+    width: 700px;
+    border: none;
+    border-radius: 20px;
+}
+.video-container{
+
+    margin-left: 50px;
+    margin-top: 30px;
+   
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    gap:4%;
+    border: solid black 2px;
+    padding: 13px;
+    border-radius: 30px;
+    width: 100px;
+}
+.subscribe-1-1{
+
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.sub{
+
+    background-color:#FF0000;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.img2{
+
+    height: 100px;
+    width: 100px;
+}
+
+.subscribe-box{
+
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.share{
+
+    display: flex;
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+.outer-videobox{
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-left{
+
+    width: 30%;
+    height: 85vh;
+    background-color: #0F0F0F;
+}
+.two-container{
+
+    display: flex;
+    position: relative;
+}
+
+.list{
+
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    list-style: none;
+    gap: 10%;
+}
+.youtube-link{
+
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 700px){
+
+
+    body{
+
+        font-size: 12px;
+    }
+}
+    
